@@ -1,0 +1,105 @@
+* {
+    background-color: black;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+section>ol>li {
+    display: inline-block;
+    list-style: none;
+}
+
+header>h2 {
+    user-select: none;
+}
+
+p.container {
+    margin-top: 15px;
+    user-select: none;
+}
+
+#sessaoID {
+    display: inline-block;
+    text-align: center;
+}
+
+#logoID {
+    margin: 0px 0px 40px 0px;
+}
+
+#listID {
+    width: 20%;
+    margin: 20px;
+}
+
+.CorTitulo {
+    margin: 75px;
+    font-size: 2em;
+    color: white;
+}
+
+.container #listID {
+    color: gray;
+    height: 200px;
+}
+
+.container img {
+    border-radius: 15px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.container img:hover {
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.952);
+    height: 200px;
+}
+
+.container img:focus {
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.952);
+    height: 200px;
+}
+
+.container #listID:hover {
+    color: white;
+    height: 200px;
+}
+
+.container #listID:focus {
+    color: white;
+    height: 200px;
+}
+
+.botaoMargens {
+    margin-bottom: 40px;
+}
+
+.botaoCLASS {
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    padding: 15px 55px 15px 55px;
+    margin-top: 90px;
+    border: 1px solid rgba(255, 255, 255, 0.637);
+}
+
+.botaoCLASS:focus {
+    background-color: white;
+    color: black;
+    transition-duration: 2s;
+}
+
+.botaoCLASS:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 0.5s;
+}
